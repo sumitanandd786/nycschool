@@ -1,5 +1,7 @@
 package com.example.a20220216_sumitanand_nycschools.model
 
+import android.widget.TextView
+import androidx.databinding.BindingAdapter
 import com.google.gson.annotations.SerializedName
 
 data class ResponseHighSchool(val results: List<HighSchoolResultsItem>? = null)
@@ -148,3 +150,34 @@ data class HighSchoolResultsItem(
     @field:SerializedName("borough")
     val borough: String? = null
     )
+
+@BindingAdapter("app:website")
+fun setWebSite(website : TextView, websiteUrl: String) {
+    website.text = websiteUrl
+}
+
+@BindingAdapter("app:schoolName")
+fun setSchoolName(schoolNm : TextView, schoolName: String) {
+    schoolNm.text = schoolName
+}
+
+
+@BindingAdapter("app:schoolLocation")
+fun setSchoolLocation(schoolLocation : TextView, schoolLocations: String) {
+    schoolLocation.text = schoolLocations
+}
+
+@BindingAdapter("app:schoolEmail")
+fun setSchoolEmail(schoolEmail : TextView, email: String) {
+    schoolEmail.text = email
+}
+
+@BindingAdapter("app:schoolPhone")
+fun setSchoolPhone(schoolPhone : TextView, phone: String) {
+    schoolPhone.text = phone
+}
+
+@BindingAdapter("app:schoolFax")
+fun setSchoolFax(schoolFax : TextView, fax: String) {
+    schoolFax.text = fax
+}

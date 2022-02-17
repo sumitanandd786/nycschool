@@ -99,7 +99,6 @@ class MainActivity : AppCompatActivity() {
                 val results: MutableList<HighSchoolResultsItem> = fetchResults(it) as MutableList<HighSchoolResultsItem>
                 binding.mainProgress.visibility = View.GONE
                 mAdapter.addAll(results)
-               // totalPages = it.totalPages!!
 
                 if (currentPage <= totalPages) mAdapter.addLoadingFooter()
                 else isLastPage = true
@@ -107,6 +106,7 @@ class MainActivity : AppCompatActivity() {
                 showErrorView(it)
             }else{
                 EventLogs.setLogCat("TAG_TEST" , "Error First Page")
+
             }
         }
 

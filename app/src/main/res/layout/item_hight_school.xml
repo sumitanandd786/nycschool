@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <variable
             name="model"
             type="com.example.a20220216_sumitanand_nycschools.model.HighSchoolResultsItem" />
@@ -34,7 +33,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_4sdp"
                     android:maxLines="1"
-                    android:text="@{model.schoolEmail}"
+                    app:schoolEmail="@{model.schoolEmail}"
                     tools:text="School Email" />
 
                 <TextView
@@ -43,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_4sdp"
                     android:maxLines="1"
-                    android:text="@{model.phoneNumber}"
+                    app:schoolPhone="@{model.phoneNumber}"
                     tools:text="School Phone" />
 
                 <TextView
@@ -52,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_4sdp"
                     android:maxLines="1"
-                    android:text="@{model.faxNumber}"
+                    app:schoolFax="@{model.faxNumber}"
                     tools:text="School Fax" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -90,7 +89,7 @@
                 android:layout_marginStart="@dimen/_24sdp"
                 android:layout_marginTop="@dimen/_4sdp"
                 android:maxLines="1"
-                android:text="@{model.schoolName}"
+                app:schoolName="@{model.schoolName}"
                 tools:text="School Name" />
 
             <TextView
@@ -102,7 +101,7 @@
                 android:layout_marginTop="@dimen/_8sdp"
                 android:ellipsize="end"
                 android:maxLines="2"
-                android:text="@{model.location}"
+                app:schoolLocation="@{model.location}"
                  />
 
         </LinearLayout>

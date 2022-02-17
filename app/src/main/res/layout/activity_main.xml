@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/colorWhiteBack"
-            app:adapter="@{adapterTopMovies}"
+            app:adapter="@{adapterHighSchool}"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
         <ProgressBar
