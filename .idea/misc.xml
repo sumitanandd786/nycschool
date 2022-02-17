@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sumit_a/AndroidStudioProjects/20220216SumitAnandNYCSchools/app/src/main/res/drawable/rety_selector.xml" value="0.1" />
+        <entry key="..\:/Users/sumit_a/AndroidStudioProjects/20220216SumitAnandNYCSchools/app/src/main/res/drawable/shape_retry_round_selected.xml" value="0.1" />
+        <entry key="..\:/Users/sumit_a/AndroidStudioProjects/20220216SumitAnandNYCSchools/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/sumit_a/AndroidStudioProjects/20220216SumitAnandNYCSchools/app/src/main/res/layout/item_hight_school.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/sumit_a/AndroidStudioProjects/20220216SumitAnandNYCSchools/app/src/main/res/layout/item_loading.xml" value="0.22" />
+        <entry key="..\:/Users/sumit_a/AndroidStudioProjects/20220216SumitAnandNYCSchools/app/src/main/res/layout/item_movie.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/sumit_a/AndroidStudioProjects/20220216SumitAnandNYCSchools/app/src/main/res/layout/ly_error_layout.xml" value="0.17552083333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
